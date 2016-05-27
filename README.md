@@ -24,7 +24,7 @@ shadowsocks config on ubuntu
 
  - 后台长期启动shadowsockts
 
- nohup ssserver -c /usr/local/lib/python2.7/dist-packages/shadowsocks/config.json > log &
+ nohup ssserver -c /usr/local/lib/python2.7/dist-packages/shadowsocks/config.json > log 2>&1 & [2>&1指的是标准错误文件输出合并到标准输出文件(stdin:0,stdout:1,stderr:2)]
 
  - 查看后台启动任务
 
