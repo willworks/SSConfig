@@ -11,9 +11,9 @@ shadowsocks config on ubuntu
 
  - 找到shadowsocks文件夹的命令： sudo find / -name shadows* ("/"是根目录下， *是通配符)
 
- - 修改config.js
+ - 在shadows目录新增并且修改config.json
 {
-	"server":"127.0.0.1",
+	"server":"服务器ip",
 	"server_port":8388,
 	"local_port":10808,
 	"password":"密码",
