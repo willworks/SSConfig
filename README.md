@@ -47,3 +47,5 @@ shadowsocks config on ubuntu
 	"timeout":600,
 	"method":"aes-256-cfb"
 }
+
+###### 建议使用锐速加速 https://www.91yun.org/
