@@ -13,7 +13,7 @@ shadowsocks config on ubuntu
 
  - 在shadows目录新增并且修改config.json
 {
-	"server":"服务器ip",
+	"server":"0.0.0.0",
 	"server_port":8388,
 	"local_port":10808,
 	"password":"密码",
